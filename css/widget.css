@@ -1,0 +1,47 @@
+#babydogeswap-widget {
+  overflow: hidden;
+  padding-bottom: 171%;
+  position: relative;
+  height: 0;
+  border-radius: 16px;
+  min-width: 375px;
+  max-width: 375px;
+}
+
+#babydogeswap-widget > iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 0 !important;
+  border: none;
+}
+
+#close-button {
+  display: flex;
+  padding: 8px 20px;
+  font-family: 'Poppins', 'Kanit';
+  font-size: 1.5rem !important;
+  z-index: 100;
+  position: absolute;
+}
+
+.swap--widget {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+  margin: 0px 20px 20px 0px;
+  cursor: pointer;
+}
+
+.d-none {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .swap--widget {
+    margin: 0;
+  }
+}
